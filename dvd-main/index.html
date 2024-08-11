@@ -1,0 +1,25 @@
+<html>
+    <body>
+        
+        <canvas id="canvas" width="1366" height="385">
+            canvas is not suported on your browser try switching to a different one
+        </canvas>
+        <img id="logo" src="favicon.png">
+    </body>
+    <head>
+        
+        <link href="style.css" rel="stylesheet">
+        <link href="favicon.png" rel="icon">
+        <title>DVD Logo</title>
+        <div class="div">
+            <p align="center" id="speed">speed</p>
+            <div class="button" align="center" onclick="inc_speed(1)">+</div>
+            <input id="speed" type="text" value="1" onchange="change_speed(this.value)">
+            <div class="button" align="center" onclick="dec_speed(1)">-</div>
+        </div>
+        <div>
+            <p align="center">stats</p>
+        </div>
+    </head>
+    <script src="index.js"></script>
+</html>

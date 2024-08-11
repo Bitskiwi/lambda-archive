@@ -1,0 +1,47 @@
+html {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    overflow: hidden;
+    user-select: none;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(50, 50, 50);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+.div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    background-color: rgb(50, 50, 50);
+    border-radius: 1px;
+    outline: 1px solid white;
+    padding: 10px;
+}
+
+.button {
+    display: inline;
+    z-index: 2;
+    background-color: rgb(50, 50, 50);
+    border-radius: 1px;
+    outline: 1px solid white;
+    color: white;
+    padding: 10px;
+}
+
+input {
+    display: inline;
+    z-index: 2;
+    background-color: rgb(50,50,50);
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+}
